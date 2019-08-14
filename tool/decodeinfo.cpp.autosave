@@ -1,0 +1,26 @@
+#include "decodeinfo.h"
+
+decodeinfo::decodeinfo()
+{
+
+}
+
+void decodeinfo::Setsrc(QString str)
+{
+    this->src = str;
+}
+
+QString decodeinfo::Getsrc() const
+{
+    return this->src;
+}
+
+void decodeinfo::Setdst(QString str)
+{
+    this->dst = str;
+}
+
+QString decodeinfo::Getdst() const
+{
+    return this->dst;
+}
